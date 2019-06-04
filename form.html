@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback Form</title>
+	<style>
+		div{float:center;
+		    border:2px solid black;
+		    padding:30px;
+		    background-color: lightyellow;
+		   }
+		span{color:red;}
+	</style>
+</head>
+<body>
+  <h1><center>FEEDBACK FORM</center></h1>
+  	<p>Hope you like my website. Kindly provide your feedback by submitting the below feedback form.<br>
+  	 Thank You!
+    </p>
+    <div>
+    	<form method="GET">
+    		First Name<span>*</span> : <input type="text" name="Firstname" required><br><br>
+    		Last Name<span>*</span>  : <input type="text" name="Lastname" required><br><br>
+    		E-mail<span>*</span>     : <input type="email" name="Email" placeholder="abc@gmail.com" required><br><br>
+    		DOB         : <input type="date" name="DOB"><br><br>
+    		Gender<span>*</span>     : <input type="radio" name="Gender" value="Male">Male
+    		              <input type="radio" name="Gender" value="Female">Female 
+    		              <input type="radio" name="Gender" value="Others">Others<br><br>
+                Do you like my website?<span>*</span>
+                <input type="checkbox" name="yes" value="Yes">Yes  <input type="checkbox" name="no" value="No">No<br><br>
+                Message   : <textarea name="Message" rows="10" cols="60">Any comments or review.</textarea><br><br>
+    		<input type="submit" value="Submit">  <input type="reset">
+        </form>
+    </div>
+</body>
+</html>
